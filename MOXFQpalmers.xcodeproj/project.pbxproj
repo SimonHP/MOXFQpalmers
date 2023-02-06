@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF42545829915587007C3712 /* MOXFQpalmersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF42545729915587007C3712 /* MOXFQpalmersApp.swift */; };
+		EF42545A29915587007C3712 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF42545929915587007C3712 /* ContentView.swift */; };
+		EF42545C2991558C007C3712 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF42545B2991558C007C3712 /* Assets.xcassets */; };
+		EF4254602991558C007C3712 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF42545F2991558C007C3712 /* Preview Assets.xcassets */; };
+		EF42546A2991558C007C3712 /* MOXFQpalmersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4254692991558C007C3712 /* MOXFQpalmersTests.swift */; };
+		EF4254742991558C007C3712 /* MOXFQpalmersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4254732991558C007C3712 /* MOXFQpalmersUITests.swift */; };
+		EF4254762991558C007C3712 /* MOXFQpalmersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4254752991558C007C3712 /* MOXFQpalmersUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF4254662991558C007C3712 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF42544C29915586007C3712 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF42545329915587007C3712;
+			remoteInfo = MOXFQpalmers;
+		};
+		EF4254702991558C007C3712 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF42544C29915586007C3712 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF42545329915587007C3712;
+			remoteInfo = MOXFQpalmers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF42545429915587007C3712 /* MOXFQpalmers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MOXFQpalmers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF42545729915587007C3712 /* MOXFQpalmersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOXFQpalmersApp.swift; sourceTree = "<group>"; };
+		EF42545929915587007C3712 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EF42545B2991558C007C3712 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF42545D2991558C007C3712 /* MOXFQpalmers.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MOXFQpalmers.entitlements; sourceTree = "<group>"; };
+		EF42545F2991558C007C3712 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EF4254652991558C007C3712 /* MOXFQpalmersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MOXFQpalmersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4254692991558C007C3712 /* MOXFQpalmersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOXFQpalmersTests.swift; sourceTree = "<group>"; };
+		EF42546F2991558C007C3712 /* MOXFQpalmersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MOXFQpalmersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4254732991558C007C3712 /* MOXFQpalmersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOXFQpalmersUITests.swift; sourceTree = "<group>"; };
+		EF4254752991558C007C3712 /* MOXFQpalmersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOXFQpalmersUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF42545129915587007C3712 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4254622991558C007C3712 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF42546C2991558C007C3712 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF42544B29915586007C3712 = {
+			isa = PBXGroup;
+			children = (
+				EF42545629915587007C3712 /* MOXFQpalmers */,
+				EF4254682991558C007C3712 /* MOXFQpalmersTests */,
+				EF4254722991558C007C3712 /* MOXFQpalmersUITests */,
+				EF42545529915587007C3712 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF42545529915587007C3712 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF42545429915587007C3712 /* MOXFQpalmers.app */,
+				EF4254652991558C007C3712 /* MOXFQpalmersTests.xctest */,
+				EF42546F2991558C007C3712 /* MOXFQpalmersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF42545629915587007C3712 /* MOXFQpalmers */ = {
+			isa = PBXGroup;
+			children = (
+				EF42545729915587007C3712 /* MOXFQpalmersApp.swift */,
+				EF42545929915587007C3712 /* ContentView.swift */,
+				EF42545B2991558C007C3712 /* Assets.xcassets */,
+				EF42545D2991558C007C3712 /* MOXFQpalmers.entitlements */,
+				EF42545E2991558C007C3712 /* Preview Content */,
+			);
+			path = MOXFQpalmers;
+			sourceTree = "<group>";
+		};
+		EF42545E2991558C007C3712 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EF42545F2991558C007C3712 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EF4254682991558C007C3712 /* MOXFQpalmersTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF4254692991558C007C3712 /* MOXFQpalmersTests.swift */,
+			);
+			path = MOXFQpalmersTests;
+			sourceTree = "<group>";
+		};
+		EF4254722991558C007C3712 /* MOXFQpalmersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF4254732991558C007C3712 /* MOXFQpalmersUITests.swift */,
+				EF4254752991558C007C3712 /* MOXFQpalmersUITestsLaunchTests.swift */,
+			);
+			path = MOXFQpalmersUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF42545329915587007C3712 /* MOXFQpalmers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF4254792991558C007C3712 /* Build configuration list for PBXNativeTarget "MOXFQpalmers" */;
+			buildPhases = (
+				EF42545029915587007C3712 /* Sources */,
+				EF42545129915587007C3712 /* Frameworks */,
+				EF42545229915587007C3712 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MOXFQpalmers;
+			productName = MOXFQpalmers;
+			productReference = EF42545429915587007C3712 /* MOXFQpalmers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF4254642991558C007C3712 /* MOXFQpalmersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF42547C2991558C007C3712 /* Build configuration list for PBXNativeTarget "MOXFQpalmersTests" */;
+			buildPhases = (
+				EF4254612991558C007C3712 /* Sources */,
+				EF4254622991558C007C3712 /* Frameworks */,
+				EF4254632991558C007C3712 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF4254672991558C007C3712 /* PBXTargetDependency */,
+			);
+			name = MOXFQpalmersTests;
+			productName = MOXFQpalmersTests;
+			productReference = EF4254652991558C007C3712 /* MOXFQpalmersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF42546E2991558C007C3712 /* MOXFQpalmersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF42547F2991558C007C3712 /* Build configuration list for PBXNativeTarget "MOXFQpalmersUITests" */;
+			buildPhases = (
+				EF42546B2991558C007C3712 /* Sources */,
+				EF42546C2991558C007C3712 /* Frameworks */,
+				EF42546D2991558C007C3712 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF4254712991558C007C3712 /* PBXTargetDependency */,
+			);
+			name = MOXFQpalmersUITests;
+			productName = MOXFQpalmersUITests;
+			productReference = EF42546F2991558C007C3712 /* MOXFQpalmersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF42544C29915586007C3712 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					EF42545329915587007C3712 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					EF4254642991558C007C3712 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = EF42545329915587007C3712;
+					};
+					EF42546E2991558C007C3712 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = EF42545329915587007C3712;
+					};
+				};
+			};
+			buildConfigurationList = EF42544F29915587007C3712 /* Build configuration list for PBXProject "MOXFQpalmers" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF42544B29915586007C3712;
+			productRefGroup = EF42545529915587007C3712 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF42545329915587007C3712 /* MOXFQpalmers */,
+				EF4254642991558C007C3712 /* MOXFQpalmersTests */,
+				EF42546E2991558C007C3712 /* MOXFQpalmersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF42545229915587007C3712 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4254602991558C007C3712 /* Preview Assets.xcassets in Resources */,
+				EF42545C2991558C007C3712 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4254632991558C007C3712 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF42546D2991558C007C3712 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF42545029915587007C3712 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF42545A29915587007C3712 /* ContentView.swift in Sources */,
+				EF42545829915587007C3712 /* MOXFQpalmersApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF4254612991558C007C3712 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF42546A2991558C007C3712 /* MOXFQpalmersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF42546B2991558C007C3712 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF4254742991558C007C3712 /* MOXFQpalmersUITests.swift in Sources */,
+				EF4254762991558C007C3712 /* MOXFQpalmersUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF4254672991558C007C3712 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF42545329915587007C3712 /* MOXFQpalmers */;
+			targetProxy = EF4254662991558C007C3712 /* PBXContainerItemProxy */;
+		};
+		EF4254712991558C007C3712 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF42545329915587007C3712 /* MOXFQpalmers */;
+			targetProxy = EF4254702991558C007C3712 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EF4254772991558C007C3712 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF4254782991558C007C3712 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		EF42547A2991558C007C3712 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MOXFQpalmers/MOXFQpalmers.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MOXFQpalmers/Preview Content\"";
+				DEVELOPMENT_TEAM = 2R2464HZQX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.simon.palmer.MOXFQpalmers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF42547B2991558C007C3712 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MOXFQpalmers/MOXFQpalmers.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MOXFQpalmers/Preview Content\"";
+				DEVELOPMENT_TEAM = 2R2464HZQX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.simon.palmer.MOXFQpalmers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF42547D2991558C007C3712 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2R2464HZQX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.simon.palmer.MOXFQpalmersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MOXFQpalmers.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MOXFQpalmers";
+			};
+			name = Debug;
+		};
+		EF42547E2991558C007C3712 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2R2464HZQX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.simon.palmer.MOXFQpalmersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MOXFQpalmers.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MOXFQpalmers";
+			};
+			name = Release;
+		};
+		EF4254802991558C007C3712 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2R2464HZQX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.simon.palmer.MOXFQpalmersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MOXFQpalmers;
+			};
+			name = Debug;
+		};
+		EF4254812991558C007C3712 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2R2464HZQX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.simon.palmer.MOXFQpalmersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MOXFQpalmers;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF42544F29915587007C3712 /* Build configuration list for PBXProject "MOXFQpalmers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4254772991558C007C3712 /* Debug */,
+				EF4254782991558C007C3712 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF4254792991558C007C3712 /* Build configuration list for PBXNativeTarget "MOXFQpalmers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF42547A2991558C007C3712 /* Debug */,
+				EF42547B2991558C007C3712 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF42547C2991558C007C3712 /* Build configuration list for PBXNativeTarget "MOXFQpalmersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF42547D2991558C007C3712 /* Debug */,
+				EF42547E2991558C007C3712 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF42547F2991558C007C3712 /* Build configuration list for PBXNativeTarget "MOXFQpalmersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4254802991558C007C3712 /* Debug */,
+				EF4254812991558C007C3712 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF42544C29915586007C3712 /* Project object */;
+}
