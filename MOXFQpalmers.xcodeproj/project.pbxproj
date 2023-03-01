@@ -34,9 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EF42545429915587007C3712 /* MOXFQpalmers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MOXFQpalmers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF42545429915587007C3712 /* MOXFQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MOXFQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF42545729915587007C3712 /* MOXFQpalmersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOXFQpalmersApp.swift; sourceTree = "<group>"; };
-		EF42545929915587007C3712 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EF42545929915587007C3712 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; wrapsLines = 0; };
 		EF42545B2991558C007C3712 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF42545D2991558C007C3712 /* MOXFQpalmers.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MOXFQpalmers.entitlements; sourceTree = "<group>"; };
 		EF42545F2991558C007C3712 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -85,7 +85,7 @@
 		EF42545529915587007C3712 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EF42545429915587007C3712 /* MOXFQpalmers.app */,
+				EF42545429915587007C3712 /* MOXFQ.app */,
 				EF4254652991558C007C3712 /* MOXFQpalmersTests.xctest */,
 				EF42546F2991558C007C3712 /* MOXFQpalmersUITests.xctest */,
 			);
@@ -132,9 +132,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EF42545329915587007C3712 /* MOXFQpalmers */ = {
+		EF42545329915587007C3712 /* MOXFQ */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EF4254792991558C007C3712 /* Build configuration list for PBXNativeTarget "MOXFQpalmers" */;
+			buildConfigurationList = EF4254792991558C007C3712 /* Build configuration list for PBXNativeTarget "MOXFQ" */;
 			buildPhases = (
 				EF42545029915587007C3712 /* Sources */,
 				EF42545129915587007C3712 /* Frameworks */,
@@ -144,9 +144,9 @@
 			);
 			dependencies = (
 			);
-			name = MOXFQpalmers;
+			name = MOXFQ;
 			productName = MOXFQpalmers;
-			productReference = EF42545429915587007C3712 /* MOXFQpalmers.app */;
+			productReference = EF42545429915587007C3712 /* MOXFQ.app */;
 			productType = "com.apple.product-type.application";
 		};
 		EF4254642991558C007C3712 /* MOXFQpalmersTests */ = {
@@ -221,7 +221,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EF42545329915587007C3712 /* MOXFQpalmers */,
+				EF42545329915587007C3712 /* MOXFQ */,
 				EF4254642991558C007C3712 /* MOXFQpalmersTests */,
 				EF42546E2991558C007C3712 /* MOXFQpalmersUITests */,
 			);
@@ -286,12 +286,12 @@
 /* Begin PBXTargetDependency section */
 		EF4254672991558C007C3712 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EF42545329915587007C3712 /* MOXFQpalmers */;
+			target = EF42545329915587007C3712 /* MOXFQ */;
 			targetProxy = EF4254662991558C007C3712 /* PBXContainerItemProxy */;
 		};
 		EF4254712991558C007C3712 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EF42545329915587007C3712 /* MOXFQpalmers */;
+			target = EF42545329915587007C3712 /* MOXFQ */;
 			targetProxy = EF4254702991558C007C3712 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -413,12 +413,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = MOXFQpalmers/MOXFQpalmers.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"MOXFQpalmers/Preview Content\"";
 				DEVELOPMENT_TEAM = 2R2464HZQX;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -429,11 +430,12 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.6;
 				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.simon.palmer.MOXFQpalmers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -451,12 +453,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = MOXFQpalmers/MOXFQpalmers.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"MOXFQpalmers/Preview Content\"";
 				DEVELOPMENT_TEAM = 2R2464HZQX;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -467,11 +470,12 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 12.6;
 				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.simon.palmer.MOXFQpalmers;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
@@ -584,7 +588,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EF4254792991558C007C3712 /* Build configuration list for PBXNativeTarget "MOXFQpalmers" */ = {
+		EF4254792991558C007C3712 /* Build configuration list for PBXNativeTarget "MOXFQ" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EF42547A2991558C007C3712 /* Debug */,
